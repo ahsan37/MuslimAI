@@ -91,10 +91,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className = "flex flex-col h-screen" style={{ background: 'linear-gradient(360deg, #151515 0%, #000000 90%)' }}>
+      <div className = "flex flex-col h-screen" style={{ background: 'linear-gradient(360deg, #262626 10%, #000000 90%)' }}>
         <div className="flex-1 overflow-auto">
           <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center px-3 pt-4 sm:pt-8">
-          <h1 className="text-6xl font-bold text-white text-center py-8 tracking-wider" style={{ backgroundImage: 'linear-gradient(to right, #1ce36f, #17b85a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent', fontFamily: 'Verdana' }}>Muslim AI</h1>
+          <h1 className="text-6xl font-bold text-white text-center py-8 tracking-wider mt-6" style={{ backgroundImage: 'linear-gradient(to right, #1ce36f, #17b85a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent', fontFamily: 'Verdana' }}>Muslim AI</h1>
           <p className="mt-2 text-center text-md text-white opacity-70">
                Disclaimer: Muslim AI is an AI-powered platform built using OpenAI&apos;s gpt-4 language model. AI-generated responses may not always be entirely correct. Please use the information provided for informational purposes only and consult reliable sources for critical matters.
               </p>
@@ -112,7 +112,7 @@ export default function Home() {
               />
 
               <button
-                className="absolute right-2 top-2.5 h-7 w-7 rounded-full p-2 hover:cursor-pointer sm:right-3 sm:top-3 sm:h-10 sm:w-10 text-white"
+                className="absolute right-2 top-2.5 h-7 w-7 rounded-full p-1 hover:cursor-pointer sm:right-3 sm:top-3 sm:h-10 sm:w-10 text-white"
                 onClick={handleAnswer}
               >
                 <IconArrowRight />
@@ -124,20 +124,20 @@ export default function Home() {
           <>
             <div className="font-bold text-2xl text-white">Answer</div>
             <div className="animate-pulse mt-2">
-            <div className="h-4 rounded" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
             </div>
           </>
           <div className="font-bold text-2xl mt-6 text-white">Sources</div>
           <div className="animate-pulse mt-2">
             <div className="h-4 rounded" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
-            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 0%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
+            <div className="h-4 rounded mt-2" style={{ background: 'linear-gradient(360deg,  #1ce36f 10%,  #17b85a 90%)' }}></div>
           </div>
           </div>
             ) : answer ? (
