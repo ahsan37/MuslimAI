@@ -22,7 +22,7 @@ export const OpenAIStream = async (prompt: string) => {
                 role:'user',
                 content: prompt
             }],
-            max_tokens:500,
+            max_tokens:350,
             temperature: 0.0,
             stream: true
 
