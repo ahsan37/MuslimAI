@@ -95,8 +95,13 @@ export default function Home() {
         <div className="flex-1 overflow-auto">
           <div className="mx-auto flex h-full w-full max-w-[750px] flex-col items-center px-3 pt-4 sm:pt-8">
           <h1 className="text-6xl font-bold text-white text-center py-8 tracking-wider mt-6" style={{ backgroundImage: 'linear-gradient(to right, #1ce36f, #17b85a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent', fontFamily: 'Verdana' }}>Muslim AI</h1>
+
           <p className="mt-2 text-center text-md text-white opacity-70">
-               Disclaimer: Muslim AI is an AI-powered platform built using OpenAI&apos;s gpt-4 language model. AI-generated responses may not always be entirely correct. Please use the information provided for informational purposes only and consult reliable sources for critical matters.
+            Hey! Thanks for using MuslimAI. Although this site is 100% free to use, I do incur some costs to run it. If you would like to support and help keep it running, you can <a href="https://www.buymeacoffee.com/ahsanwaseem" style={{ color: '#1ce36f', textDecoration: 'underline' }}>buy me a samosa here</a>! Plus, a portion of all donations is dedicated to supporting various Palestine Relief efforts, making a difference where it's needed most.
+        </p>
+
+          <p className="mt-6 text-center text-md text-white opacity-70">
+               Disclaimer: AI-generated answers may not always be correct.
               </p>
             <div className="relative w-full mt-6">
               <IconSearch className="absolute top-3 w-10 left-1 h-6 rounded-full opacity-50 sm:left-3 sm:top-4 sm:h-8 text-white" />
