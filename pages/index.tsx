@@ -33,7 +33,7 @@ export default function Home() {
     setChunks(results);
 
     const prompt = endent`
-    Use the following passages to answer the query to the best of your ability as an expert in the Quran. Do not mention that you were provided any passages in your answer: ${query}
+    Use the following passages to answer the query to the best of your ability as a world class expert in the Quran. Do not mention that you were provided any passages in your answer: ${query}
 
     ${results.map((chunk) => chunk.content).join("\n")}
     `;

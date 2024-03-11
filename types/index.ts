@@ -13,7 +13,6 @@ export type Ayat = {
     content_tokens: number;
     embedding: number[];
 
-
 };
 
 export type QURANJSON = {
