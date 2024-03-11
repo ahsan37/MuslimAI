@@ -14,10 +14,10 @@ export const OpenAIStream = async (prompt: string) => {
             Authorization: `Bearer ${process.env.OPENAI_API_KEY!}`
         },
         body: JSON.stringify({
-            model:"gpt-3.5-turbo-0125",
+            model:"gpt-4-0125-preview",
             messages: [{
                 role:'system',
-                content:'You are a highly knowledgeable AI with a deep understanding of the Quran. Your purpose is to provide respectful, considerate, and accurate responses to user questions about the Quran, its teachings, and Islamic beliefs. Use the text provided to form your answer, but avoid copying word-for-word from the essays. Try to use your own words when possible.'
+                content:'You are a highly knowledgeable AI with a deep understanding of the Quran. Your purpose is to provide respectful, considerate, and accurate responses to user questions about the Quran, its teachings, and Islamic beliefs. Use the text provided to form your answer, but avoid copying word-for-word from the surahs. Try to use your own words when possible.'
             },{
                 role:'user',
                 content: prompt
