@@ -97,7 +97,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold text-white text-center py-8 tracking-wider mt-6" style={{ backgroundImage: 'linear-gradient(to right, #1ce36f, #17b85a)', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent', fontFamily: 'Verdana' }}>Muslim AI</h1>
 
           <p className="mt-2 text-center text-md text-white opacity-70">
-            Salam! Thanks for using MuslimAI. Although this site is 100% free to use, I do incur some costs to run it. If you would like to support and help keep it running, you can <a href="https://www.buymeacoffee.com/ahsanwaseem" style={{ color: '#1ce36f', textDecoration: 'underline' }}>buy me a samosa here</a>!
+            Salam! Thanks for using MuslimAI. Although this site is 100% free to use, I do incur some costs to run it. If you would like to support and help keep it running, you can <a href="https://www.buymeacoffee.com/ahsanwaseem" style={{ color: '#1ce36f', textDecoration: 'underline' }}>buy me a coffee here</a>!
         </p>
 
           <p className="mt-6 text-center text-md text-white opacity-70">
